@@ -1,0 +1,22 @@
+
+
+// const clicked = document.querySelector("body")
+// console.log(clicked)
+
+
+// clicked.addEventListener(()=>{
+//     clicked.style.filter="blur(20px)"
+
+// })
+
+const popup = document.getElementById("popup")
+
+function openPopup(){
+    popup.classList.add("open-Popup");
+
+}
+
+function closePopup(){
+    popup.classList.remove("open-Popup");
+
+}
